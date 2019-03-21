@@ -1,0 +1,67 @@
+@import url(https://use.typekit.net/trh1mhk.css);
+@import url(//db.onlinewebfonts.com/c/8029f93f08754c69f242a73a22a987cf?family=Hallandale+Sm.+Caps+It.+JL);
+
+$color-alpha: #071ea4;
+$color-beta: #6e6e6e;
+$color-gamma: #fff;
+$color-delta: #000;
+
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    font-family: garage-gothic, sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    font-style: normal;
+    background-color: $color-beta;
+    color: $color-gamma;
+}
+
+.footer{
+    background-color: $color-alpha;
+    color: $color-gamma;
+    text-align: center;
+    letter-spacing: .1em;
+    padding-top: .5em;
+    padding-bottom: .05em;
+    -webkit-box-shadow: 0px -4px 5px 0px rgba(110,110,110,0.75);
+    -moz-box-shadow: 0px -4px 5px 0px rgba(110,110,110,0.75);
+    box-shadow: 0px -4px 5px 0px rgba(110,110,110,0.75);
+}
+
+.footer-a{
+    text-decoration: none;
+    color: $color-beta;
+    border-bottom: 1px solid $color-gamma;
+    transition: all .4s ease;
+    &:hover {
+        color: $color-gamma;
+        border-bottom: 1px solid #6e6e6e;
+    }
+}
+
+.navbar{
+    /*background-color: #071ea4;*/
+    font-family: "Hallandale SC Heavy It. JL";
+    font-weight: 400;;
+}
+
+.navbar-brand{
+    color: $color-gamma;
+}
+
+.nav-link{
+    color: $color-gamma;
+}
+
+.navbar-toggle, .icon-bar{
+    border: 1px solid $color-gamma !important;
+}
