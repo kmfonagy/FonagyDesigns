@@ -22,6 +22,9 @@ body{
     font-size: 1.5em;
     background-color: #c8d9ed;
     color: #fff;
+    -webkit-text-shadow:  0.5px 0.5px 2px rgba(110,110,110,0.75);
+    -moz-text-shadow:  0.5px 0.5px 2px rgba(110,110,110,0.75);
+    text-shadow:  0.5px 0.5px 2px rgba(110,110,110,0.75);
 }
 
 header img{
@@ -34,9 +37,6 @@ header img{
     font-size: 1.25em;
     min-height: 300px;
     letter-spacing: .05em;
-    /*-webkit-box-shadow: 0px -4px 5px 0px rgba(110,110,110,0.75);*/
-    /*-moz-box-shadow: 0px -4px 5px 0px rgba(110,110,110,0.75);*/
-    /*box-shadow: 0px -4px 5px 0px rgba(110,110,110,0.75);*/
 }
 
 .container h1{
@@ -70,10 +70,6 @@ header img{
 .footlink{
     text-decoration: none;
     color: #fff;
-    /*border-bottom: 3px solid #6e6e6e;*/
-    /*-webkit-box-shadow: inset 0 -4px #6e6e6e;*/
-    /*-moz-box-shadow: inset 0 -4px #6e6e6e;*/
-    /*box-shadow: inset 0 -4px #6e6e6e;*/
     -webkit-transition: all .4s ease;
     -moz-transition: all .4s ease;
     transition: all .4s ease;
@@ -99,14 +95,19 @@ header img{
 }
 
 .navbar-brand{
-    font-family: pt-sans, sans-serif;
+    font-family: futura-pt, sans-serif;
     font-weight: 400;
     font-style: normal;
     color: #fff;
     font-size: 1.05em;
+    padding-right: .5rem;
+    margin-right: .25rem;
     -webkit-text-shadow: 1px 1px 2px rgba(110,110,110,0.75);
     -moz-text-shadow: 1px 1px 2px rgba(110,110,110,0.75);
     text-shadow: 1px 1px 2px rgba(110,110,110,0.75);
+    -webkit-border-right: 1px solid #6e6e6e;
+    -moz-border-right: 1px solid #6e6e6e;
+    border-right: 1px solid #6e6e6e;
 }
 
 .navbar-toggler-icon {
@@ -119,7 +120,7 @@ header img{
 
 .nav-link{
     color: #fff;
-    font-size: 1.05em;
+    font-size: 1em;
 } 
 
 /*Parallax*/
@@ -179,4 +180,19 @@ header img{
 
 #nav-icon{
     width: 30px;
+    margin-right: 0.35rem;
 }
+
+@media (max-width:991.98px) {
+
+      .navbar-brand
+      {
+        padding-right: 0 !important;
+        margin-right: 0 !important;
+        -webkit-border-right: 0px solid !important;
+        -moz-border-right: 0px solid !important;
+        border-right: 0px solid !important;
+        }
+
+
+      }
