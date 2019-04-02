@@ -124,7 +124,7 @@ header img{
 } 
 
 /*Parallax*/
-.indexImg-1, .indexImg-2, .indexImg-3, .bgimg-2, .bgimg-3 {
+.indexImg-1, .indexImg-2, .indexImg-3, .webImg-1, .bgimg-3 {
   position: relative;
   background-attachment: fixed;
   background-position: top;
@@ -149,9 +149,9 @@ header img{
     min-height: 300px;
 }
 
-.bgimg-2 {
-  background-image: url("img_parallax2.jpg");
-  min-height: 300px;
+.webImg-1 {
+    background-image: url("/images/maximilian-weisbecker-544039-unsplash.jpg");
+    min-height: 500px;
 }
 
 .bgimg-3 {
@@ -163,6 +163,19 @@ header img{
   .indexImg-1 {
     background-attachment: scroll;
   }
+}
+
+#heading{
+    font-family: futura-pt,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 5rem;
+    color: #fff;
+    padding-top: 5rem;
+    -webkit-text-shadow:  7px 7px 10px rgba(110,110,110,0.75);
+    -moz-text-shadow:  7px 7px 10px rgba(110,110,110,0.75);
+    text-shadow:  7px 7px 10px #6e6e6e;
 }
 
 #foot{
@@ -184,7 +197,6 @@ header img{
 }
 
 @media (max-width:991.98px) {
-
       .navbar-brand
       {
         padding-right: 0 !important;
@@ -193,6 +205,4 @@ header img{
         -moz-border-right: 0px solid !important;
         border-right: 0px solid !important;
         }
-
-
       }

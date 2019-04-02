@@ -1,0 +1,104 @@
+<% include ../partials/header %>
+
+<div class="webImg-1">
+    <div class="container justify-content-center">
+        <p id="heading">WEB DEVELOPMENT</p>
+    </div>
+</div>
+
+<div class="container content-justify-center mt-5">
+    <h1>DEVELOPED WEBSITES</h1>
+    
+    
+    
+    <!--<div class="row justify-content-center">-->
+    <!--    <div class="col-12">-->
+    <!--        <//% if (pages && pages > 1) { %>-->
+    <!--        <ul class="pagination text-center justify-content-center">-->
+    <!--            <//% if (current == 1) { %>-->
+    <!--            <li class="disabled"><a>First</a></li>-->
+    <!--            <//% } else { %>-->
+    <!--            <li><a href="/webdev">First</a></li>-->
+    <!--            </% } %>-->
+             
+    <!--            <//% if (current == 1) { %>-->
+    <!--            <li class="disabled"><a>«</a></li>-->
+    <!--            <//% } else { %>-->
+    <!--            <li><a href="/webdev?page=<//%= Number(current) - 1 %>">«</a></li>-->
+    <!--            <//% } %>-->
+             
+    <!--            <//% var i = (Number(current) > 5 ? Number(current) - 4 : 1) %>-->
+    <!--            <//% if (i !== 1) { %>-->
+    <!--            <li class="disabled"><a>...</a></li>-->
+    <!--            <//% } %>-->
+    <!--            <//% for (; i <= (Number(current) + 4) && i <= pages; i++) { %>-->
+    <!--            <//% if (i == current) { %>-->
+    <!--            <li class="active"><a><//%= i %></a></li>-->
+    <!--            <//% } else { %>-->
+    <!--            <li><a href="/webdev?page=<//%= i %>"><//%= i %></a></li>-->
+    <!--            <//% } %>-->
+    <!--            <//% if (i == Number(current) + 4 && i < pages) { %>-->
+    <!--            <li class="disabled"><a>...</a></li>-->
+    <!--            <//% } %>-->
+    <!--            <//% } %>-->
+             
+    <!--            <//% if (current == pages) { %>-->
+    <!--            <li class="disabled"><a>»</a></li>-->
+    <!--            <//% } else { %>-->
+    <!--            <li><a href="/webdev?page=<//%= Number(current) + 1 %>">»</a></li>-->
+    <!--            <//% } %>-->
+             
+    <!--            <//% if (current == pages) { %>-->
+    <!--            <li class="disabled"><a>Last</a></li>-->
+    <!--            <//% } else { %>-->
+    <!--            <li><a href="/webdev?page=<%= pages %>">Last</a></li>-->
+    <!--            <//% } %>-->
+    <!--        </ul>-->
+    <!--        <//% } %>-->
+    <!--    </div>-->
+    <!--</div>-->
+</div>
+
+
+
+<div class="container justify-content-center mt-3" id="foot">
+    <div class="row">
+        <div class="col-lg-8 col-md-auto">
+            <ul class="footlists">
+                <li>
+                    <i class="fas fa-home"></i> <a href="/" class="footlink">Home</a>
+                </li>
+                <li>
+                    <i class="fas fa-code"></i> <a href="/webdev" class="footlink">Web Development</a>
+                </li>
+                <li>
+                    <i class="fas fa-pencil-ruler"></i> <a href="#" class="footlink">Graphic Design</a>
+                </li>
+                <li>
+                    <i class="fas fa-address-card"></i> <a href="#" class="footlink">About</a>
+                </li>
+                <li>
+                    <i class="fas fa-archive"></i> <a href="#" class="footlink">Resources</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-lg-auto col-md-auto">
+            <ul class="footlists">
+                <li class="footitems">
+                    <i class="far fa-envelope"></i> <a href="#" class="footlink">Contact</a>
+                </li>
+                <li>
+                    <i class="fab fa-facebook-square"></i> <a href="https://www.facebook.com/Fonagy-Designs-LLC-599244820551058/" class="footlink" target="_blank">Like</a>
+                </li>
+                <li>
+                    <i class="fab fa-instagram"></i> <a href="https://www.instagram.com/fonagydesigns/" class="footlink" target="_blank">Follow</a>
+                </li>
+                <li>
+                    <i class="fab fa-twitter-square"></i> <a href="" class="footlink" target="_blank">Follow</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<% include ../partials/footer %>

@@ -49,6 +49,10 @@ app.get("/", (req, res)=>{
     res.render("pages/index");
 });
 
+app.get("/webdev", (req, res)=>{
+    res.render("pages/webdev");
+});
+
 const port = process.env.PORT;
 const ip = process.env.IP;
 app.listen(port,function(){
